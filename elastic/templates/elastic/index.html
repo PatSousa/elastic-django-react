@@ -1,0 +1,8 @@
+{% extends 'elastic/base.html' %}
+{% load render_bundle from webpack_loader %} 
+
+{% block content %}
+<div id="container">
+ {% render_bundle 'main' %} 
+</div>
+{% endblock %}

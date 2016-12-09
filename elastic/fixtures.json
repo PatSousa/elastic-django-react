@@ -1,0 +1,20 @@
+[
+  {
+    "model": "elastic.note",
+    "pk": 1,
+    "fields": {
+      "title": "John",
+      "text": "Lennon",
+      "author": "",
+      "pub_date": ""
+    }
+  },
+  {
+    "model": "myapp.person",
+    "pk": 2,
+    "fields": {
+      "first_name": "Paul",
+      "last_name": "McCartney"
+    }
+  }
+]
